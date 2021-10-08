@@ -9,11 +9,11 @@ const routes = require('./routes')
 app.set('port', process.env.PORT || 3000);
 
 const dbOptions = {
-    host: 'localhost',
+    host: 'db4free.net',
     port: 3306,
-    user: 'root',
-    password: 'Davidrueda2010',
-    database: 'usuarios'
+    user: 'pruebasenmicrud',
+    password: 'Pruebasconjava',
+    database: 'dbpersonas9876'
 }
 
 //Middlewares
